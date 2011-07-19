@@ -1,0 +1,5 @@
+#!/bin/sh
+
+if [ -n $ROXTERM_ID ]; then
+  dbus-send --session /net/sf/roxterm/Options net.sf.roxterm.Options.SetColourScheme string:$ROXTERM_ID "string:Tango-remote"
+fi

@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "notifier"
+
+Notifier.default_notifier = :notify_send
+Notifier.notify( :message => 'hai' )

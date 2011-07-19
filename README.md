@@ -1,1 +1,1 @@
-A collection of scripts to make my life easier
+A collection of misc scripts to make my life easier
